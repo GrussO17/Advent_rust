@@ -5,7 +5,7 @@ fn main() {
     let args: Vec<String> = env::args().collect();
 
     if args.len() != 2 {
-        println!("Usage: input.txt");
+        println!("Usage: input.txt" "include_diagi");
         println!("     input.txt");
         return;
     }
